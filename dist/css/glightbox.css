@@ -144,6 +144,7 @@
 
 .gslide-image img {
   max-height: 100vh;
+  max-height: 100dvh;
   display: block;
   padding: 0;
   float: none;
@@ -501,11 +502,11 @@ iframe.wait-autoplay {
 /*Skin */
 
 .glightbox-clean .gslide-description {
-  background: #fff;
+  background: #000;
 }
 
 .glightbox-clean .gdesc-inner {
-  padding: 22px 20px;
+  padding: 0;
 }
 
 .glightbox-clean .gslide-title {
@@ -871,6 +872,7 @@ iframe.wait-autoplay {
   }
   .gslide-image img {
     max-height: 97vh;
+    max-height: 97dvh;
     max-width: 100%;
   }
   .gslide-image img.zoomable {
