@@ -6,6 +6,7 @@
   left: 0;
   z-index: 999999 !important;
   overflow: hidden;
+  overflow-y: scroll;
   -ms-touch-action: none;
   touch-action: none;
   -webkit-text-size-adjust: 100%;
